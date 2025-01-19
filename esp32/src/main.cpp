@@ -46,7 +46,7 @@ MqttClient mqttClient(wifiClient);
 const char broker[]    = "iot-06z00i8cm8497dy.mqtt.iothub.aliyuncs.com";
 int        port        = 1883;
 
-const char inTopic[]   = "/sys/k29156PnPTd/esp32/thing/service/property/set";
+const char inTopic[]   = "/k29156PnPTd/esp32/user/get";
 const char outTopic[]  = "/sys/k29156PnPTd/esp32/thing/service/property/post";
 
 const long interval = 10000;
