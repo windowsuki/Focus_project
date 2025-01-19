@@ -62,6 +62,12 @@ mqtt连接所用的参数，都能在物联网平台>设备>设备信息中查�
 2. 先尝试着构建他给出的代码，并作出简单改变（mqtt参数设置、ui改写）![androidtest](./esp32/picture/androidtest.png)
 3. 安装app到模拟器，通过物联网平台的日志，确认可以连接并发送消息![androidconnect](./esp32/picture/androidconnect.png)
 
+### TASK2.2.3
+
+1. 首先参考[阿里物联网平台“云产品流转”设置方法（新版）_云产品流转如何让app和esp8266实现消息轮转-CSDN博客](https://blog.csdn.net/liyong_sbcel/article/details/126530138)，通过mqtt.fx模拟实现两个设备之间的消息流转![mqtttomqtt](./esp32/picture/mqtttomqtt.png)
+2. 修改解析器规则，将mqtt.fx所模拟的设备替换为esp32和app，手头没有灯就用串口代替了![apptoesp32](.\esp32\picture\apptoesp32.png)
+3. 此时，消息的流转方向为 app->云->云产品流转->esp32![log](.\esp32\picture\log.png)
+
 ## 总结
 
 本次冬令营由于本人散漫的习惯及忘记带板子回家，时间实在是不够充裕，只能粗略的完成合格要求。
