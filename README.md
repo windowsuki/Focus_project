@@ -59,8 +59,8 @@ mqtt连接所用的参数，都能在物联网平台>设备>设备信息中查�
 
 1. Android Studio下载速度过慢，配置镜像源: [解决Gradle报错：Plugin [id: ‘com.android.application‘, version: ‘x.x.x‘, apply: false\] was not found_plugin [id: 'com.android.application', version: '8-CSDN博客](https://blog.csdn.net/qq_43811536/article/details/139447518)
 
-2. 先尝试着构建他给出的代码，并作出简单改变（mqtt参数设置、ui改写）![androidtest](.\picture\androidtest.png)
-3. 安装app到模拟器，通过物联网平台的日志，确认可以连接并发送消息![androidconnect](.\picture\androidconnect.png)
+2. 先尝试着构建他给出的代码，并作出简单改变（mqtt参数设置、ui改写）![androidtest](./esp32/picture/androidtest.png)
+3. 安装app到模拟器，通过物联网平台的日志，确认可以连接并发送消息![androidconnect](./esp32/picture/androidconnect.png)
 
 ## 总结
 
