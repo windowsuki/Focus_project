@@ -29,7 +29,7 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ### TASK2.0
 
-![image](.\esp32\picture\helloworld.png)
+![image](./esp32/picture/helloworld.png)
 
 platformio自带的串口监视器不知道为什么监测不到，先用之前的小工具
 
