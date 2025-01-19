@@ -29,13 +29,13 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ### TASK2.0
 
-![image](./picture/helloworld.png)
+![image](.\esp32\picture\helloworld.png)
 
 platformio自带的串口监视器不知道为什么监测不到，先用之前的小工具
 
 ### TASK2.1
 
-![image](.\picture\helloWifi.png)
+![image](.\esp32\picture\helloWifi.png)
 
 [使用Arduino开发ESP32（03）：WiFi基本功能使用_arduino wifi 功率-CSDN博客](https://blog.csdn.net/Naisu_kun/article/details/86165403)
 
@@ -43,11 +43,11 @@ platformio自带的串口监视器不知道为什么监测不到，先用之前�
 
 先通过mqtt.fx测试了一下
 
-![mqttesp32](.\picture\mqttfx.png)
+![mqttesp32](.\esp32\picture\mqttfx.png)
 
 然后在板子上通过例程实现了和物联网平台的通信
 
-![mqttesp32](.\picture\mqttesp32.png)
+![mqttesp32](.\esp32\picture\mqttesp32.png)
 
 [使用MQTT协议模拟设备快速接入物联网平台_物联网平台(IoT)-阿里云帮助中心](https://help.aliyun.com/zh/iot/getting-started/using-mqtt-fx-to-access-iot-platform?spm=a2c4g.11174283.6.584.3a8b1668HMO0MX#84180893107ui)
 
